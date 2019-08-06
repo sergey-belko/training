@@ -1,0 +1,23 @@
+ul ~  p {
+    color: yellow;
+}
+
+
+[test="1"]{
+    color: blue;
+}
+
+
+.container{
+    border: orange dashed;
+    height: 100px;
+    width: 100px;
+
+    display: inline-block;
+}
+
+.element{
+    border: red dashed;
+    height: 10px;
+    width: 10px;
+}

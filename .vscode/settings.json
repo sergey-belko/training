@@ -1,0 +1,38 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.autoSave": "afterDelay",
+    "explorer.sortOrder": "type",
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "smooth",
+    "files.trimFinalNewlines": true,
+    "workbench.settings.useSplitJSON": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.mouseWheelZoom": true,
+    "breadcrumbs.enabled": true,
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
+}
