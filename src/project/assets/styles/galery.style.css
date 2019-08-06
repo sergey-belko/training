@@ -1,14 +1,16 @@
 .galery__main_img {
-     width: 500px;
-     height: 500px;
+     width: 100%;
+     height: 25%;
 }
 
-.galery__img_list{
+.galery__img_list {
     width: 100%;
     height: 50%;
+    display: flex;
+    overflow: auto;
 }
 
-.galery__img_list_element{
-    width: 10%;
+.galery__img_list_element {
+    width: 16%;
     margin: 1%;
 }
