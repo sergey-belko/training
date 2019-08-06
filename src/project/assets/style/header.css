@@ -1,11 +1,30 @@
 .header {
-    width: 500px;
-    height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__navigation {
+  flex: 1 1 auto;
 }
 
 .header__logo {
-    width: 100px;
-    height: 100px;
+  flex: 1 1 auto;
+}
 
-    cursor: pointer;
+.header__logo_icon {
+  width: 100px;
+}
+
+.header__list {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.header__list_element {
+  padding-top: 5%;
 }

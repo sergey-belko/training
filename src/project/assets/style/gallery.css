@@ -1,4 +1,17 @@
+.gallery {
+  width: 100%;
+}
+
 .gallery__main_img {
- width: 500px;
- height: 500px;
+  width: 100%;
+  height: 50%;
+}
+
+.gallery__list_element {
+  width: 15%;
+}
+
+.gallery__list {
+  display: flex;
+  overflow: auto;
 }
