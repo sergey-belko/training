@@ -1,24 +1,14 @@
-.header {
-    width: 500px;
-    height: 250px;
-}
-
-.header__logo {
-    width: 100px;
-    height: 100px;
-
-    cursor: pointer;
-}
-
-.main__title{
-    text-decoration: underline;
-}
-
-.project__title {
-    text-transform: uppercase;
-}
-
 .galery__main_img {
-    /* width: 500px; */
-    /* height: 500px; */
+     width: 500px;
+     height: 500px;
+}
+
+.galery__img_list{
+    width: 100%;
+    height: 50%;
+}
+
+.galery__img_list_element{
+    width: 10%;
+    margin: 1%;
 }

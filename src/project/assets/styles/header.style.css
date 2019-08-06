@@ -9,16 +9,3 @@
 
     cursor: pointer;
 }
-
-.main__title{
-    text-decoration: underline;
-}
-
-.project__title {
-    text-transform: uppercase;
-}
-
-.galery__main_img {
-    /* width: 500px; */
-    /* height: 500px; */
-}
