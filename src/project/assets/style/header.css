@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background: yellow;
+  border-radius: 4px;
 }
 
 .header__navigation {
@@ -21,10 +23,14 @@
   height: 100%;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style-type: none;
 }
 
 .header__list_element {
   padding-top: 5%;
+}
+
+.header__list_element > a {
+  color: black;
 }
