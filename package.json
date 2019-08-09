@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
     "stylelint-config-recommended": "^2.2.0"
   }
 }
