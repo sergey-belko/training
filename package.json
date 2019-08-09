@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/sergey-belko/training#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1",
-    "prompt": "^1.0.0"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",

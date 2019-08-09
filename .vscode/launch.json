@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "browser-preview",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/src/js/bundle.js"
+            "name": "Browser Preview: Launch",
+            "url": "http://localhost:3000"
         }
     ]
 }
