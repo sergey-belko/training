@@ -11,11 +11,11 @@
 }
 
 .header__logo {
-  flex: 1 1 auto;
+  flex: 0.5 1 auto;
 }
 
 .header__logo_icon {
-  width: 100px;
+  height: 100px;
 }
 
 .header__list {
@@ -28,9 +28,12 @@
 }
 
 .header__list_element {
-  padding-top: 5%;
+  flex: 1 1 auto;
+  position: relative;
 }
 
-.header__list_element > a {
+.header__list_element a {
+  position: absolute;
   color: black;
+  top: 50%;
 }
