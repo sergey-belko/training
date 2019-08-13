@@ -5,14 +5,28 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="../../node_modules/normalize.css/normalize.css" />
   <link rel="stylesheet" href="./style.css" />
-  <script src="bundle.js"></script>
   <title>JavaScript</title>
 </head>
 
 <body>
   <h1>JavaScript</h1>
+
+  <button onclick="helloWorldWordTemplate()">
+    Hello world from template
+  </button>
+  <button onclick="helloWorldFromBundle()">
+    Hello world from bundle
+  </button>
+  <button onclick="prompt('Hello world from button')">
+    111111111111111
+  </button>
 </body>
 
-
+<script>
+  function helloWorldWordTemplate() {
+    alert('Hello world from template')
+  }
+</script>
+<script src="bundle.js"></script>
 
 </html>
