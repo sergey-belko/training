@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npx browser-sync start --cwd --server -w --no-open",
     "console": "node ./src/js/bundle.js",
+    "menu:console": "node ./src/js/bundle.js",
     "w:test": "jest --config ./config/jest/jest.config.js",
     "w:build": "webpack --env.target production --config ./config/webpack",
     "w:start": "webpack-dev-server --env development --config ./config/webpack"
@@ -24,7 +25,9 @@
   },
   "homepage": "https://github.com/sergey-belko/training#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "alert-node": "^1.2.6",
+    "normalize.css": "^8.0.1",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
