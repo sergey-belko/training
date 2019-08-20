@@ -17,7 +17,6 @@ const ANSWER = {
 };
 
 function getValueFromStore(index, store) {
-
   if (store[index]) {
     return store[index];
   }
@@ -26,9 +25,8 @@ function getValueFromStore(index, store) {
 }
 
 for (; ;) {
-
-  const questionIndex = parseInt(prompt('Select next question (0 - exit) '));
-  const answerIndex = parseInt(prompt('Select next answer (0 - exit) '));
+  const questionIndex = parseInt(prompt('Select next question (0 - exit) '), 10);
+  const answerIndex = parseInt(prompt('Select next answer (0 - exit) '), 10);
 
   console.log(getValueFromStore(questionIndex, QUESTION));
   console.log(getValueFromStore(answerIndex, ANSWER));
