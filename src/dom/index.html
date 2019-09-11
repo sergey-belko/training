@@ -3,13 +3,40 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
-  <link rel="stylesheet" href="./style.css" />
-  <title>...</title>
+  <link rel="stylesheet" type="text/css" href="../../node_modules/normalize.css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>DOM</title>
 </head>
 
 <body>
-  <h1>...</h1>
+  <h1>DOM</h1>
+
+  <div id="id">I'm an ID</div>
+
+  <div class="test">I'm a class</div>
+  <div class="test">I'm a class</div>
+
+  <section>I'm a tag</section>
+  <section>I'm a tag</section>
+
+  <div class="query">For query selector</div>
+  <div class="query">For query selector</div>
+  <p>getElementsByTagNameNS</p>
+  <div id="div1">
+    <p>Some div1 text</p>
+
+    <div id="div2">
+      <p>Some div2 text</p>
+    </div>
+  </div>
+
+  <div id="replace">To replace</div>
+
 </body>
+
+<script src="./js/nodeType.js"></script>
+<script src="./js/selector.js"></script>
+<script src="./js/node.js"></script>
+<script src="./js/attribute.js"></script>
 
 </html>

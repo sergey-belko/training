@@ -1,38 +1,39 @@
 {
+    "breadcrumbs.enabled": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "block",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "workbench.editor.highlightModifiedTabs": true,
-    "files.autoSave": "afterDelay",
-    "explorer.sortOrder": "type",
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "smooth",
-    "files.trimFinalNewlines": true,
-    "workbench.settings.useSplitJSON": true,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
     "editor.mouseWheelZoom": true,
-    "breadcrumbs.enabled": true,
-    "prettier.eslintIntegration": true,
-    "prettier.stylelintIntegration": true,
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         {
-            "language": "typescript",
-            "autoFix": true
+            "autoFix": true,
+            "language": "typescript"
         },
         {
-            "language": "typescriptreact",
-            "autoFix": true
+            "autoFix": true,
+            "language": "typescriptreact"
         },
         {
-            "language": "javascript",
-            "autoFix": true
+            "autoFix": true,
+            "language": "javascript"
         },
         {
-            "language": "javascriptreact",
-            "autoFix": true
+            "autoFix": true,
+            "language": "javascriptreact"
         }
     ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.settings.useSplitJSON": true
 }
