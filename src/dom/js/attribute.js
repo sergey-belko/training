@@ -14,7 +14,6 @@
   console.log('Does it have id?', test.hasAttribute(attr));
   console.log('id:', test.getAttribute(attr));
 
-
   console.log('Remove test-attr');
   console.log('Does it have id?', test.hasAttribute(attr));
   test.removeAttribute(attr);

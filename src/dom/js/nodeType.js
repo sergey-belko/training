@@ -8,5 +8,6 @@
   console.log('Is head type element node?', Node.ELEMENT_NODE === document.head.nodeType);
 
   console.log('Body\'s child nodes:', document.body.childNodes);
+  console.log('Body\'s child nodes:', document.body.children);
   console.log('Body\'s parent node:', document.body.parentNode);
 }());

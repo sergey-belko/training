@@ -6,8 +6,8 @@
   div.style.background = 'red';
   div.textContent = 'Text in div';
   const { body } = document;
-  body.appendChild(div);
-  body.insertBefore(div, body.children[0]);
+  // body.appendChild(div);
+  body.insertBefore(div, body.children[5]);
 
   const div1 = document.getElementById('div1');
   const paragraph = document.createElement('p');
